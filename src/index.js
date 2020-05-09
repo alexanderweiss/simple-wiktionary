@@ -95,7 +95,7 @@ class App {
     const q = search.replace(/ /g, '_')
 
     try {
-      if (!this.loadingIndicatorEl.parentNode === this.contentEl) {
+      if (this.loadingIndicatorEl.parentNode !== this.contentEl) {
         this.contentEl.innerHTML = ''
         this.contentEl.appendChild(this.loadingIndicatorEl)
       }
