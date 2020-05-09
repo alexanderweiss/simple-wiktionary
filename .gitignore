@@ -1,0 +1,18 @@
+## Editors
+/.nova
+/.vscode
+
+## System files
+.DS_Store
+
+## npm
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+## Build output
+dist
+
+## Misc
+resources

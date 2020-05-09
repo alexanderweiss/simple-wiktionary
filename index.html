@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <input
+        value=""
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="Search"
+      />
+      <language-picker id="language-picker"></language-picker>
+    </header>
+    <main id="content">
+      <loading-indicator id="loading-indicator"></loading-indicator>
+      <div id="message"></div>
+      <!-- <article ></article> -->
+      <!--<footer id="footer"></footer>-->
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
+
+<!-- const res = await fetch(`https://en.wiktionary.org/w/api.php?action=parse&format=json&prop=text|revid|displaytitle&callback=?&page=${e.target.value.replace(/ /g, '_')}`)
+const data= await res.json() -->
