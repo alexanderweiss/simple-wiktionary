@@ -4,14 +4,21 @@
   "description": "Use Wiktionary like a dictionary",
   "main": "index.js",
   "scripts": {
+    "build": "rimraf dist && rollup -c rollup.config.js",
+    "start:build": "npm run build && es-dev-server --root-dir dist --app-index index.html --compatibility none --open",
     "start": "es-dev-server --app-index index.html --node-resolve --open --watch"
   },
   "author": "Alexander Weiss",
   "license": "ISC",
   "devDependencies": {
+    "@open-wc/building-rollup": "^1.2.5",
+    "deepmerge": "^4.2.2",
     "es-dev-server": "^1.46.0",
     "lit-element": "^2.3.1",
     "lit-html": "^1.2.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.8.2",
+    "rollup-plugin-copy": "^3.3.0"
   }
 }

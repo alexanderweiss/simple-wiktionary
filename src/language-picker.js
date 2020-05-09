@@ -266,7 +266,7 @@ export default class LanguagePicker extends LitElement {
       }
 
       .option.active > button::before {
-        background-image: url('images/checkmark.svg'),
+        background-image: url('assets/images/checkmark.svg'),
           linear-gradient(180deg, #4587f2 0%, #456af2 100%);
         background-size: 18px 18px, 100% 100%;
 
