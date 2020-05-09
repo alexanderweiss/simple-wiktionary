@@ -19,6 +19,9 @@ export default class LanguagePicker extends LitElement {
         box-sizing: border-box;
 
         font-size: inherit;
+        font-family: inherit;
+
+        outline: none;
       }
 
       .button {
