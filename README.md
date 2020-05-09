@@ -1,4 +1,4 @@
-# simple-wiktionary
+# Simple Wiktionary
 
 Use Wiktionary like a dictionary: [simple-wiktionary.alexanderweiss.nl (live version).](https://simple-wiktionary.alexanderweiss.nl)
 
